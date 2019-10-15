@@ -1,0 +1,31 @@
+body{
+  background-color:skyblue;
+  color:white;
+}
+h1{
+  text-align:center;
+  border-bottom:1px solid gray;
+  padding:10px;
+  margin:0px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+ul{
+  border-right:1px solid gray;
+  width:120px;
+  margin:0px;
+  padding-top:5px;
+}
+p{
+ font-size:15pt;
+}
+#grid{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin-bottom:50px;
+}
+#grid #A{
+  padding-left:30px;
+}
